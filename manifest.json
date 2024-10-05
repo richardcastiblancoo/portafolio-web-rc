@@ -1,0 +1,21 @@
+{
+    "name": "mi portafolio web",
+    "short_name": "PWA",
+    "description": "app de mi propio portafolio web richard castiblanco",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4CAF50",
+    "icons": [
+        {
+            "src": "/images/codigo.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/images/codigo.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}

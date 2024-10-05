@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+body{
+    background-color: #433878;
+}
+
+/* header */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    height: 80px;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 50px;
+}
+
+h1{
+   color: wheat;
+    margin-left: 20px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+ul,li{
+    display: flex;
+    gap: 30px;
+}
+
+.contenedor1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+/* dark */
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+/* Estilo del toggle */
+.toggle-input {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 24px;
+    margin: 10px;
+  }
+  
+  .toggle-switch .toggle-input {
+    display: none;
+  }
+  
+  .toggle-switch .toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 24px;
+    background-color: #2196F3;
+    border-radius: 34px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .toggle-switch .toggle-label::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+  }
+  
+  .toggle-switch .toggle-input:checked + .toggle-label {
+    background-color: #4CAF50;
+  }
+  
+  .toggle-switch .toggle-input:checked + .toggle-label::before {
+    transform: translateX(16px);
+  }
+  
+  .toggle-switch.light .toggle-label {
+    background-color: #BEBEBE;
+  }
+  
+  .toggle-switch.light .toggle-input:checked + .toggle-label {
+    background-color: #9B9B9B;
+  }
+  
+  .toggle-switch.light .toggle-input:checked + .toggle-label::before {
+    transform: translateX(6px);
+  }
+  
+  .toggle-switch.dark .toggle-label {
+    background-color: #4B4B4B;
+  }
+  
+  .toggle-switch.dark .toggle-input:checked + .toggle-label {
+    background-color: #717171;
+  }
+  
+  .toggle-switch.dark .toggle-input:checked + .toggle-label::before {
+    transform: translateX(16px);
+  }
+  
+/* main */
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.logo-2{
+    width: 100px;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+
+.parrafo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #2196F3;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    color: wheat;
+}
+
+.h2-1{
+    text-align: center;
+    font-size: 2rem;
+    color: wheat;
+}
+
+.contenedor4{
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.parrafo1{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    text-align: center;
+    color: wheat;
+}
+
+.contenedor3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contacto-1{
+    width: 30px;
+}
+
+.Contactarme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFC700;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    gap: 10px;
+}
+
+.descargar{
+    width: 40px;
+}
+
+.contenedor5{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.h2-2{
+    text-align: center;
+    color: wheat;
+}
+
+.contenedor6{
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor6 svg {
+    width: 70px;
+    height: 70px;
+    transition: transform 0.5s ease-out;
+}
+  
+.contenedor6 svg:hover {
+    transform: scale(1.2); 
+}
+  
+
+
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: wheat;
+}
